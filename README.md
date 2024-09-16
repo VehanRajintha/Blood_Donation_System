@@ -18,8 +18,8 @@
 **Install xampp**
 - Run apache and MySQL servers through xampp
 - Put the project folder to /xammp/htdocs path
-#import database ---> mypro_bbms.sql
-Open your browser and browse http://localhost/bbms/user_home.php (this is the main user page)
+- import database ---> mypro_bbms.sql
+- Open your browser and browse http://localhost/bbms/user_home.php (this is the main user page)
 
 
 **Extra**   ----> Used bind values for php 
@@ -28,12 +28,7 @@ Open your browser and browse http://localhost/bbms/user_home.php (this is the ma
            ----> Used Session management 
            ----> ER diagram provided
 
-Follow me on GitHub -----> https://github.com/VehanRajintha
-Visit my Portfolio ------> vehanrajintha.netlify.app
-Contact me         ------> +94713910417 (WhatsApp) 
-                   ------> https://www.linkedin.com/in/vehanrajintha/(Linkedin)
 
-------------------------------------------------------- VehanRajintha----------------------------------------------------------
 
 
 ![pic1](pic1.jpg)
