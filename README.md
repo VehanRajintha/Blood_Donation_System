@@ -13,6 +13,27 @@
 ![developer](https://img.shields.io/static/v1?label=Author&message=Vehan%20Rajintha&color=purple&style=plastic)
 
 
+----------------------------------------------------------INSTRUCTIONS---------------------------------------------------------------------
+
+**Install xampp**
+- Run apache and MySQL servers through xampp
+- Put the project folder to /xammp/htdocs path
+#import database ---> mypro_bbms.sql
+Open your browser and browse http://localhost/bbms/user_home.php (this is the main user page)
+
+
+**Extra**   ----> Used bind values for php 
+		(The bindValue method is used to bind a value to a parameter in a prepared statement. This helps prevent SQL injection   attacks by ensuring that the values are properly escaped.)
+    
+           ----> Used Session management 
+           ----> ER diagram provided
+
+Follow me on GitHub -----> https://github.com/VehanRajintha
+Visit my Portfolio ------> vehanrajintha.netlify.app
+Contact me         ------> +94713910417 (WhatsApp) 
+                   ------> https://www.linkedin.com/in/vehanrajintha/(Linkedin)
+
+------------------------------------------------------- VehanRajintha----------------------------------------------------------
 
 
 ![pic1](pic1.jpg)
