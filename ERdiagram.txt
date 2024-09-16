@@ -1,0 +1,33 @@
+
+
+
+
+
+
+
+
++-------------------+       +---------------------+       +---------------------+
+|      Users        |       |  Donor Registration |       |    Blood Requests   |
++-------------------+       +---------------------+       +---------------------+
+| user_id (PK)      |<------| donor_id (PK)       |       | request_id (PK)     |
+| email             |       | name                |       | email               |
+| pass              |       | fname               |       | message             |
++-------------------+       | address             |       | name                |
+                            | city                |       | contact             |
+                            | age                 |       +---------------------+
+                            | bgroup              |
+                            | email               |
+                            | mno                 |
+                            +---------------------+
+                                  |
+                                  |
+                                  |
+                                  v
++-------------------+       +---------------------+
+| Out Stock Blood   |       |   Exchange Blood    |
++-------------------+       +---------------------+
+| out_stock_id (PK) |       | exchange_id (PK)    |
+| name              |       | name                |
+| mno               |       | mno                 |
+| bname             |       | bgroup              |
++-------------------+       +---------------------+
