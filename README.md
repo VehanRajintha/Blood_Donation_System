@@ -13,7 +13,7 @@
 ![developer](https://img.shields.io/static/v1?label=Author&message=Vehan%20Rajintha&color=purple&style=plastic)
 
 
---------------------------------------------------INSTRUCTIONS-------------------------------------------------------------------
+--------------------------------------------------INSTRUCTIONS---------------------------------------------------------------
 
 **Install xampp**
 - Run apache and MySQL servers through xampp
