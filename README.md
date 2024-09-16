@@ -22,7 +22,7 @@
 - Open your browser and browse http://localhost/bbms/user_home.php (this is the main user page)
 
 
-**Extra**   ----> Used bind values for php 
+**Extra**             ----> Used bind values for php 
 		(The bindValue method is used to bind a value to a parameter in a prepared statement. This helps prevent SQL injection   attacks by ensuring that the values are properly escaped.)
     
            ----> Used Session management 
