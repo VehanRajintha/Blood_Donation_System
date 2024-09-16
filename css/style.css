@@ -1,0 +1,251 @@
+    .body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    #spline-background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+        z-index: -1;
+        transform: scale(1.2);
+    }
+
+    #full {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    #inner_full {
+        width: 99%;
+        height: 96%;
+        background-color: rgba(255, 255, 255, 0.9);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        overflow-y: auto;
+        /* Enable vertical scrolling */
+        position: relative;
+        z-index: 2;
+
+    }
+
+    #header {
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #header a {
+        color: white;
+        text-decoration: none;
+    }
+
+    #body {
+        padding: 20px;
+    }
+
+    h1 {
+        color: #333;
+        text-align: center;
+    }
+
+    /* Style for the logo container */
+    .logo {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        padding: 20px;
+        /* Add some padding */
+        background-color: #ff4d4d;
+        /* Red background color */
+        border-radius: 100px;
+        /* Rounded corners */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        /* Subtle shadow */
+        margin-bottom: 20px;
+        /* Space below the logo */
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /* Style for the logo text */
+    .logo h2 {
+        color: white;
+        /* White text color */
+        font-size: 24px;
+        /* Font size */
+        font-weight: bold;
+        /* Bold text */
+        margin: 1;
+        /* Remove default margin */
+
+    }
+
+    .card-container {
+        display: flex;
+        justify-content: flex-start;
+        /* Align items to the start (left) */
+        align-items: center;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 20px 0;
+        /* Add some margin for spacing */
+    }
+
+    /* Container for the elements */
+    .container {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+        /* Add space between items */
+        padding: 20px;
+        /* Add padding around the container */
+        background-color: #f9f9f9;
+        /* Light background color */
+        border-radius: 8px;
+        /* Rounded corners */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        /* Subtle shadow */
+    }
+
+    /* Style for the elements with id 'd' */
+    #d {
+        width: 20%;
+        height: 50px;
+        margin: 10px;
+        /* Add some margin for spacing */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f0f0f0;
+        /* Light background color */
+        border-radius: 8px;
+        /* Rounded corners */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        /* Subtle shadow */
+        transition: transform 0.3s ease, background-color 0.3s ease;
+        /* Smooth transitions */
+    }
+
+    #d:hover {
+        transform: translateY(-5px);
+        /* Lift on hover */
+        background-color: #e0e0e0;
+        /* Slightly darker background on hover */
+    }
+
+
+
+    /* Style for links */
+    a {
+        text-decoration: none;
+        color: #333;
+        /* Default text color */
+        font-weight: bold;
+        /* Bold text */
+        transition: color 0.3s ease;
+        /* Smooth transition for color */
+    }
+
+    a:hover {
+        color: red;
+        /* Change color on hover */
+    }
+
+    /* Style for the video element */
+    .card-container video {
+        width: 100%;
+        max-width: 800px;
+        /* Set a max width for the video */
+        border-radius: 8px;
+        /* Rounded corners */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        /* Subtle shadow */
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        /* Smooth transitions */
+    }
+
+    .card-container video:hover {
+        transform: scale(1.05);
+        /* Slightly enlarge the video on hover */
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        /* Enhance shadow on hover */
+    }
+
+    /* Style for the content next to the video */
+    .card-container .content {
+        margin-left: 20px;
+        /* Space between video and content */
+        text-align: left;
+        color: #000000;
+        /* White text color */
+        background-color: #ffffff;
+        /* Red background color */
+        padding: 20px;
+        /* Add padding */
+        border-radius: 8px;
+        /* Rounded corners */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        /* Subtle shadow */
+    }
+
+    /* Style for the paragraph inside the content */
+    .card-container .content p {
+        font-size: 24px;
+        /* Larger font size */
+        margin-bottom: 20px;
+        /* Space below the paragraph */
+    }
+
+    /* Style for the buttons */
+    .card-container .content .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 5px;
+        font-size: 20px;
+        color: #ff4d4d;
+        /* Red text color */
+        background-color: #fff;
+        /* White background color */
+        border: 2px solid #ff4d4d;
+        /* Red border */
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        /* Smooth transitions */
+    }
+
+    .card-container .content .btn:hover {
+        background-color: #ff4d4d;
+        /* Red background on hover */
+        color: #fff;
+        /* White text color on hover */
+    }
+
+    #footer {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #footer p {
+        margin: 0;
+    }

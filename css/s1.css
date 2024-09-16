@@ -1,0 +1,109 @@
+#full {
+    width: 100%;
+    height: auto;
+}
+
+#inner_full {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+#header {
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    color: white;
+}
+
+#header a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+#body {
+    width: 100%;
+    height: 700px;
+}
+
+#footer {
+    width: 100%;
+    height: 70px;
+    background-color: red;
+    color: black;
+}
+
+ul li {
+    width: 20%;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 80px;
+    background: red;
+    list-style: none;
+    color: white;
+    float: left;
+    text-align: center;
+    border-radius: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#form {
+    width: 90%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.sec-loading {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 10000;
+}
+
+.sec-loading .one {
+    height: 80px;
+    width: 80px;
+    border: 5px solid white;
+    transform: rotate(45deg);
+    border-radius: 0 50% 50% 50%;
+    position: relative;
+    animation: move 0.3s linear infinite alternate-reverse;
+}
+
+.sec-loading .one::before {
+    content: "";
+    position: absolute;
+    height: 55%;
+    width: 55%;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    border-top-color: white;
+    border-bottom-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+@keyframes move {
+    to {
+        transform: translateY(15px) rotate(45deg);
+    }
+}
