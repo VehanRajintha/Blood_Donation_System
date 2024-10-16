@@ -22,14 +22,24 @@
 - Open your browser and browse http://localhost/bbms/user_home.php (this is the main user page)
 
 
-**Extra**             ----> Used bind values for php 
+**Extra**            
+
+	   ----> Used bind values for php 
 		(The bindValue method is used to bind a value to a parameter in a prepared statement. This helps prevent SQL injection   attacks by ensuring that the values are properly escaped.)
-    
            ----> Used Session management 
            ----> ER diagram provided
 
 
+## Download
+# Click on the below Mediafire icon to Download Full Zip file with Database
 
+[<img src="https://firebasestorage.googleapis.com/v0/b/vehan-5008a.appspot.com/o/mediafire-logo-transparent.png?alt=media&token=d196347c-31d4-409a-8dd8-a573b0e5149a"
+    alt="Get it on Mediafire"
+    height="80">](https://www.mediafire.com/file/7sp98ilql50gcs7/Blood_Donation_System.zip/file)
+
+
+
+## Screenshots
 
 ![pic1](pic1.jpg)
 ![pic2](pic2.jpg)
